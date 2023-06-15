@@ -7,7 +7,7 @@
   <br>
   <Block v-if="isPlaying" :delay="delay" @endGame="end"></Block>
   <br>
-  <p>Reaction Time: {{ score }} ms</p>
+  <p v-if="score != null">Reaction Time: {{ score }} ms</p>
 
 
 </template>
