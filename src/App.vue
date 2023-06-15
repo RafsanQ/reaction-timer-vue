@@ -6,7 +6,10 @@
   </button>
   <br>
   <Block v-if="isPlaying" :delay="delay" @endGame="end"></Block>
-  
+  <br>
+  <p>Reaction Time: {{ score }} ms</p>
+
+
 </template>
 
 
